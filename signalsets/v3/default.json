@@ -3,15 +3,6 @@
   "signals": [
     {"id": "STINGER_DC_CHRG_STATE", "path": "Battery", "fmt": {"bix": 140, "len": 1, "max": 1, "unit": "offon" }, "name": "DC charging state"}
   ]},
-{ "hdr": "744", "fcm1": true, "dbg": true, "cmd": {"22": "E003"}, "freq": 1,
-  "signals": [
-    {"id": "STINGER_HVBAT_SOC_VCMS",    "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 100,   "div": 2,  "unit": "percent" }, "name": "HV battery charge",      "suggestedMetric": "stateOfCharge"},
-    {"id": "STINGER_HVBAT_TARGET_VOLT", "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 6553,  "div": 10, "unit": "volts"   }, "name": "EVSE target current",    "description": "EVSE = Electric vehicle supply equipment"},
-    {"id": "STINGER_HVBAT_DC_CHRGNG",   "path": "Battery", "fmt": {"bix": 140, "len": 1,  "max": 1,                "unit": "offon"   }, "name": "DC charging"},
-    {"id": "STINGER_HVBAT_TARGET_CURR", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 6553,  "div": 10, "unit": "amps"    }, "name": "EVSE target voltage",    "description": "EVSE = Electric vehicle supply equipment"},
-    {"id": "STINGER_HVBAT_CHRG_CNT",    "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 65535,            "unit": "scalar"  }, "name": "Number of DC charges"},
-    {"id": "STINGER_DC_CHRG_TIME",      "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 65535,            "unit": "hours"   }, "name": "Total DC charging time"}
-  ]},
 { "hdr": "770", "dbg": true, "cmd": {"22": "BC03"}, "freq": 1,
   "signals": [
     {"id": "STINGER_DOOR_RL",        "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Rear left door open?"},
