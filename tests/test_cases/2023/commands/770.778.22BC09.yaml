@@ -6,17 +6,17 @@ test_cases:
     778100B62BC09000003
     77821CC00000000AAAA
   expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 0
+    STINGER_HL_HIGH: 0
+    STINGER_HL_LOW: 0
 - response: |-
     778100B62BC09000003
     77821CC00000030AAAA
   expected_values:
-    KIA_HL_HIGH: 0
-    KIA_HL_LOW: 1
+    STINGER_HL_HIGH: 0
+    STINGER_HL_LOW: 1
 - response: |-
     778100B62BC09000003
     77821CC0000C000AAAA
   expected_values:
-    KIA_HL_HIGH: 1
-    KIA_HL_LOW: 0
+    STINGER_HL_HIGH: 1
+    STINGER_HL_LOW: 0
