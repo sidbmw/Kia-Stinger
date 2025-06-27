@@ -117,13 +117,6 @@
     {"id": "STINGER_STEER_ANGLE", "path": "Control",  "fmt": {"bix": 200, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,   "sign": true, "unit": "degrees"           }, "name": "Steering wheel angle"},
     {"id": "STINGER_BRAKE_P",     "path": "Control",  "fmt": {"bix": 256, "len": 16, "max": 100,                    "div": 86.7, "sign": true, "unit": "percent"           }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7D1", "dbg": true, "cmd": {"22": "4000"}, "freq": 1,
-  "signals": [
-    {"id": "STINGER_TIRE_FL_VSS_V2", "path": "Movement", "fmt": {"bix": 48, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "STINGER_TIRE_FR_VSS_V2", "path": "Movement", "fmt": {"bix": 56, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "STINGER_TIRE_RL_VSS_V2", "path": "Movement", "fmt": {"bix": 64, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "STINGER_TIRE_RR_VSS_V2", "path": "Movement", "fmt": {"bix": 72, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
-  ]},
 { "hdr": "7D4", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
   "signals": [
     {"id": "STINGER_STEER_ANGLE_V2", "path": "Control", "fmt": {"bix": 72, "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
@@ -190,13 +183,6 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "01A4"}, "freq": 1,
-  "signals": [
-    {"id": "STINGER_GEAR_CUR",   "path": "Transmission", "fmt": {"bix": 188, "len": 4,  "max": 15,                                    "unit": "scalar"  }, "name": "Current gear"},
-    {"id": "STINGER_GEAR_NXT",   "path": "Transmission", "fmt": {"bix": 196, "len": 4,  "max": 15,                                    "unit": "scalar"  }, "name": "Next gear"},
-    {"id": "STINGER_CLUTCH_1_T", "path": "Transmission", "fmt": {"bix": 232, "len": 16, "max": 300, "min": -40, "mul": 2, "add": -40, "unit": "celsius" }, "name": "Clutch #1 temperature", "description": "Part of the dual clutch transition"},
-    {"id": "STINGER_CLUTCH_2_T", "path": "Transmission", "fmt": {"bix": 248, "len": 16, "max": 300, "min": -40, "mul": 2, "add": -40, "unit": "celsius" }, "name": "Clutch #2 temperature", "description": "Part of the dual clutch transition"}
-  ]},
 { "hdr": "7E2", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
   "signals": [
     {"id": "STINGER_VSS_V2", "path": "Movement", "fmt": {"bix": 104, "len": 16, "blsb": true, "max": 180, "min": -180, "div": 100, "sign": true, "unit": "milesPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
@@ -205,12 +191,5 @@
   "signals": [
     {"id": "STINGER_VPWR_V3", "path": "Battery", "fmt": {"bix": 152, "len": 8, "max": 100, "unit": "percent" }, "name": "12v battery charge"}
   ]},
-{ "hdr": "7E7", "dbg": true, "cmd": {"22": "C101"}, "freq": 0.25,
-  "signals": [
-    {"id": "STINGER_TIRE_FL_SPD", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "STINGER_TIRE_FR_SPD", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "STINGER_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "STINGER_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 112, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
-  ]}
 ]
 }
