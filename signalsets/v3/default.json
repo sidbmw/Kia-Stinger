@@ -153,5 +153,15 @@
   "signals": [
     {"id": "STINGER_VPWR_V3", "path": "Battery", "fmt": {"bix": 152, "len": 8, "max": 100, "unit": "percent" }, "name": "12v battery charge"}
   ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"21": "A0"}, "freq": 1,
+  "signals": [
+    {"id": "STINGER_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"bix": 152, "len": 8, "map": {
+          "1": { "description": "Neutral", "value": "NEUTRAL" },
+          "2": { "description": "Reverse", "value": "REVERSE" },
+          "3": { "description": "Park",    "value": "PARK" },
+          "4": { "description": "Manual",  "value": "MANUAL" }
+        }}
+    }
+  ]},
 ]
 }
