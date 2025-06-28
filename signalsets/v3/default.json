@@ -48,7 +48,7 @@
     {"id": "STINGER_TP_RL", "path": "Tires", "fmt": {"bix": 96,  "div": 5,             "len": 8,             "max": 51,                "unit": "psi"},      "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"},
     {"id": "STINGER_TP_RR", "path": "Tires", "fmt": {"bix": 128, "div": 5,             "len": 8,             "max": 51,                "unit": "psi"},      "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"},
     {"id": "STINGER_TT_FL", "path": "Tires", "fmt": {"bix": 40,                        "len": 8, "max": 127, "min": -50, "sign": true, "unit": "celsius" }, "name": "Front left tire temperature"},
-    {"id": "STINGER_TT_FR", "path": "Tires", "fmt": {"bix": 56,                        "len": 8, "max": 127, "min": -50, "sign": true, "unit": "celsius"},  "name": "Front right tire temperature"},
+    {"id": "STINGER_TT_FR", "path": "Tires", "fmt": {"bix": 72,                        "len": 8, "max": 127, "min": -50, "sign": true, "unit": "celsius"},  "name": "Front right tire temperature"},
     {"id": "STINGER_TT_RL", "path": "Tires", "fmt": {"bix": 120,                       "len": 8, "max": 127, "min": -50, "sign": true, "unit": "celsius"},  "name": "Rear left tire temperature"},
     {"id": "STINGER_TT_RR", "path": "Tires", "fmt": {"bix": 160,                       "len": 8, "max": 127, "min": -50, "sign": true, "unit": "celsius"},  "name": "Rear right tire temperature"},
     {"id": "STINGER_TB_FL", "path": "Tires", "name": "Tire battery front left", "fmt": {"bix": 48, "len": 8, "map": {
