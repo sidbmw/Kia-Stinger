@@ -46,7 +46,7 @@
     {"id": "STINGER_TPMS_PRESS_FL",  "path": "Tires", "fmt": {"bix": 32, "div": 5, "len": 8, "max": 51, "unit": "psi"}, "name": "Front Left Tire Pressure", "suggestedMetric": "frontLeftTirePressure"},
     {"id": "STINGER_TP_FR_PRE21",  "path": "Tires", "fmt": {"bix": 64, "div": 5, "len": 8, "max": 51, "unit": "psi"}, "name": "Front Right Tire Pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "STINGER_TP_RL",  "path": "Tires", "fmt": {"bix": 152, "div": 5, "len": 8, "max": 51, "unit": "psi"}, "name": "Rear Left Tire Pressure", "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "STINGER_TP_RR",  "path": "Tires", "fmt": {"bix": 112, "div": 5, "len": 8, "max": 51, "unit": "psi"}, "name": "Rear Right Tire Pressure", "suggestedMetric": "rearRightTirePressure"},
+    {"id": "STINGER_TPMS_PRESS_RR", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51, "div": 5, "unit": "psi"}, "name": "Tire pressure rear right", "suggestedMetric": "rearRightTirePressure"},
     {"id": "STINGER_TB_FL", "path": "Tires", "name": "Tire battery front left", "fmt": {"bix": 48, "len": 8, "map": {
           "0": { "description": ">3 V",        "value": "3V+" },
           "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
