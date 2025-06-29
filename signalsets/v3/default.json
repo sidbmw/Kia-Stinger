@@ -84,14 +84,14 @@
   "signals": [
     {"id": "STINGER_TEMP_INT", "path": "Climate",  "fmt": {"bix": 40,  "len": 8, "max": 80,  "min": -40, "div": 2, "add": -40, "unit": "fahrenheit"           }, "name": "Interior temperature"},
     {"id": "STINGER_TEMP_EXT", "path": "Climate",  "fmt": {"bix": 48,  "len": 8, "max": 80,  "min": -40, "div": 2, "add": -40, "unit": "fahrenheit"           }, "name": "Exterior temperature"},
-    {"id": "STINGER_VSS",      "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255,                                   "unit": "milesPerHour" }, "name": "Vehicle speed",        "suggestedMetric": "speed"}
+    {"id": "STINGER_VSS",      "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255,                                   "unit": "milesPerHour"         }, "name": "Vehicle speed",        "suggestedMetric": "speed"}
   ]},
 { "hdr": "7C6", "fcm1": true, "dbg": true, "cmd": {"22": "B002"}, "freq": 5,
   "signals": [
     {"id": "STINGER_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 255,                     "unit": "liters"     }, "name": "Fuel level (volume)"},
     {"id": "STINGER_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,         "div": 12.8, "unit": "volts"      }, "name": "Cluster voltage"},
-    {"id": "STINGER_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,              "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
-    {"id": "STINGER_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,              "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
+    {"id": "STINGER_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,                "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
+    {"id": "STINGER_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,                "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E0", "dbg": false, "cmd": {"22": "E001"}, "freq": 1,
   "signals": [
@@ -100,7 +100,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "E002"}, "freq": 5,
   "signals": [
-    {"id": "STINGER_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 1"},
+    {"id": "STINGER_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.686409, "min": 0,"div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 1"},
     {"id": "STINGER_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 2"},
     {"id": "STINGER_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 3"},
     {"id": "STINGER_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 4"}
