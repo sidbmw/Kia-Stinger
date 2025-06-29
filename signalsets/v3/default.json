@@ -90,8 +90,8 @@
   "signals": [
     {"id": "STINGER_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 255,                     "unit": "liters"     }, "name": "Fuel level (volume)"},
     {"id": "STINGER_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,         "div": 12.8, "unit": "volts"      }, "name": "Cluster voltage"},
-    {"id": "STINGER_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,              "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
-    {"id": "STINGER_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,              "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
+    {"id": "STINGER_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,                "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
+    {"id": "STINGER_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,                "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E0", "dbg": false, "cmd": {"22": "E001"}, "freq": 1,
   "signals": [
