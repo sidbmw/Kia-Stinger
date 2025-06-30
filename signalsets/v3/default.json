@@ -109,7 +109,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "E00A"}, "freq": 1,
   "signals": [
-    {"id": "STINGER_KNOCK_RETARD_1", "path": "Engine", "fmt": {"bix": 80,  "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 1"},
+    {"id": "STINGER_KNOCK_RETARD_1", "path": "Engine", "fmt": {"bix": 72,  "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 1"},
     {"id": "STINGER_KNOCK_RETARD_2", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 2"},
     {"id": "STINGER_KNOCK_RETARD_3", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 3"},
     {"id": "STINGER_KNOCK_RETARD_4", "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 4"},
