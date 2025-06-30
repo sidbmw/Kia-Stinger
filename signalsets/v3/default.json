@@ -115,12 +115,12 @@
     {"id": "STINGER_KNOCK_RETARD_4", "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 4"},
     {"id": "STINGER_KNOCK_RETARD_5", "path": "Engine", "fmt": {"bix": 128, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 5"},
     {"id": "STINGER_KNOCK_RETARD_6", "path": "Engine", "fmt": {"bix": 136, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 6"},
-    {"id": "STINGER_KNOCK_LEARN_1",  "path": "Engine", "fmt": {"bix": 144, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 1"},
-    {"id": "STINGER_KNOCK_LEARN_2",  "path": "Engine", "fmt": {"bix": 152, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 2"},
-    {"id": "STINGER_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 160, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 3"},
-    {"id": "STINGER_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 4"},
-    {"id": "STINGER_KNOCK_LEARN_5",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 4"},
-    {"id": "STINGER_KNOCK_LEARN_6",  "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 4"}
+    {"id": "STINGER_KNOCK_LEARN_1",  "path": "Engine", "fmt": {"bix": 160, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 1"},
+    {"id": "STINGER_KNOCK_LEARN_2",  "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 2"},
+    {"id": "STINGER_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 3"},
+    {"id": "STINGER_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 4"},
+    {"id": "STINGER_KNOCK_LEARN_5",  "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 4"},
+    {"id": "STINGER_KNOCK_LEARN_6",  "path": "Engine", "fmt": {"bix": 200, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 4"}
   ]},
 { "hdr": "7E0", "dbg": false, "cmd": {"22": "E021"}, "freq": 0.1,
   "signals": [
