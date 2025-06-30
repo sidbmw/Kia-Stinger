@@ -100,7 +100,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "E002"}, "freq": 5,
   "signals": [
-    {"id": "STINGER_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "add": 0.0001, "unit": "seconds" }, "name": "Injection duration cyl 1"},
+    {"id": "STINGER_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.686409, "div": 1220, "add": 1, "unit": "seconds"}, "name": "Injection duration cyl 1"},
     {"id": "STINGER_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 2"},
     {"id": "STINGER_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 3"},
     {"id": "STINGER_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 4"}
