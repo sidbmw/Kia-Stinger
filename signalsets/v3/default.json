@@ -32,10 +32,6 @@
   "signals": [
     {"id": "STINGER_DEFOG_LIGHT", "path": "Climate", "fmt": {"bix": 40, "len": 8, "max": 1, "unit": "noyes" }, "name": "Defog light on"}
   ]},
-{ "hdr": "770", "dbg": true, "cmd": {"22": "BC08"}, "freq": 2,
-  "signals": [
-    {"id": "STINGER_TURN_L", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 1, "nullmin": 0, "nullmax": 1, "unit": "noyes" }, "name": "Left turn signal on? (raw >1)"}
-  ]},
 { "hdr": "770", "dbg": true, "cmd": {"22": "BC09"}, "freq": 1,
   "signals": [
     {"id": "STINGER_HL_HIGH", "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight high beam on"},
@@ -122,6 +118,10 @@
     {"id": "STINGER_KNOCK_RETARD_5", "path": "Engine", "fmt": {"bix": 152, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 5"},
     {"id": "STINGER_KNOCK_RETARD_6", "path": "Engine", "fmt": {"bix": 160, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 6"}
   ]},
+ { "hdr": "7E2", "dbg": true, "cmd": {"22": "E004"}, "freq": 1,
+  "signals": [
+    {"id": "STINGER_VPWR_V3", "path": "Battery", "fmt": {"bix": 152, "len": 8, "max": 100, "unit": "percent" }, "name": "12v battery charge"}
+  ]},
 { "hdr": "7E0", "dbg": false, "cmd": {"22": "E021"}, "freq": 0.1,
   "signals": [
     {"id": "STINGER_TURBO_BOOST", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 66.81, "min": -10,             "div": 831.55690902, "add": -12, "unit": "psi"     }, "name": "Turbo boost pressure (gauge)"},
@@ -133,10 +133,6 @@
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "ED02"}, "freq": 1,
   "signals": [
     {"id": "STINGER_EOT_V2", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 215, "min": -4, "add": -4, "unit": "celsius" }, "name": "Engine oil temperature"}
-  ]},
-{ "hdr": "7E2", "dbg": true, "cmd": {"22": "E004"}, "freq": 1,
-  "signals": [
-    {"id": "STINGER_VPWR_V3", "path": "Battery", "fmt": {"bix": 152, "len": 8, "max": 100, "unit": "percent" }, "name": "12v battery charge"}
   ]},
 { "hdr": "7D4", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
   "signals": [
@@ -152,6 +148,10 @@
 { "hdr": "7E2", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
   "signals": [
     {"id": "STINGER_VSS_V2", "path": "Movement", "fmt": {"bix": 104, "len": 16, "blsb": true, "max": 180, "min": -180, "div": 100, "sign": true, "unit": "milesPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
+  ]},
+{ "hdr": "770", "dbg": true, "cmd": {"22": "BC08"}, "freq": 2,
+  "signals": [
+    {"id": "STINGER_TURN_L", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 1, "nullmin": 0, "nullmax": 1, "unit": "noyes" }, "name": "Left turn signal on? (raw >1)"}
   ]}
 ]
 }
